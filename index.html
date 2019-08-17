@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+
+<body>
+        <div class="container-fluid mx-sm-1 ">
+    
+            
+            <h1 id="title" class="text-center">Web Development Survey</h1>
+            <p id="description" class="text-center">Tell us about your Web Development journey!</p>
+            <div class=" row justify-content-center">
+    
+        <form id="survey-form">
+    
+        <div class="form-group row">
+            <div class="col-md-12">
+            <label id="name-label" for="exampleInputPassword1">Screen Name:</label>
+            <input type="name" class="form-control " id="name" placeholder="Johnny" required>
+        </div>
+    </div>
+        <div class="form-group row">
+                <div class="col-md-12">
+    
+            <label id="email-label" for="exampleInputEmail1">Email Address:</label>
+            <input type="email" class="form-control " id="email" aria-describedby="emailHelp" placeholder="youremail@example.com" required>
+            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+        </div>  
+        </div>
+    
+        <div class="form-group row">
+        <div class="col-md-12">
+    
+            <label  id="number-label" for="exampleInputnumber1">how many years have you been coding for?</label>
+            <input type="number" class="form-control" id="number"  placeholder="1"  min="1" max="125"required>
+        </div>
+        </div>
+    
+        <div class="form-group row">
+        <div class="col-md-12">
+    
+            <label for="exampleFormControlSelect1">Which of the following have you used</label>
+            <select class="form-control" id="dropdown">
+                <option>Free Code Camp</option>
+                <option>Codecademy</option>
+                <option>Team Tree House</option>
+                <option>Udemy</option>
+                <option>college course</option>
+            </select>
+              </div>
+        </div>
+    
+        <div class="form-group">
+        
+    
+             <label id="number" for="exampleInputEmail1" name="gender">Which gender do you most identify with</label>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
+                <label class="form-check-label" for="exampleRadios1">Male</label>
+              </div>
+    
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+                <label class="form-check-label" for="exampleRadios2">Female</label>
+            </div>
+    
+            <div class="form-check disabled">
+                <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios3" value="option3">
+                <label class="form-check-label" for="exampleRadios3">Other</label>
+            </div>
+                </div>
+    
+        <div class="form-group">
+            <label id="" for="">Check off which programming languages you know </label>
+        <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="1" id="invalidCheck">
+            <label class="form-check-label" for="invalidCheck3"> Javascript </label>
+        </div>
+    
+        <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="2" id="invalidCheck">
+                <label class="form-check-label" for="invalidCheck3"> Python </label>
+        </div>
+          <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="3" id="invalidCheck">
+                <label class="form-check-label" for="invalidCheck3"> PHP </label>
+         </div>
+    
+         <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="4" id="invalidCheck">
+                <label class="form-check-label" for="invalidCheck3"> C# </label>
+        </div>
+    </div>
+    
+    <div class="form-group row">
+            <div class="col-md-12">
+    
+            <label for="exampleFormControlTextarea1">If you think of any revelant questions that are not in our survey why not tell us!</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+     </div>
+    </div>
+         <button type="submit" id="submit"class="btn btn-primary">Submit</button>
+    
+    
+    
+    </form>
+    </div>
+    
+     </div> <!-- container div-->
+        
+    </body>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+</html>
